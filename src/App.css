@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.logo-container{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.logo{
+  width: 18rem;
+}
+.logo:hover{
+  opacity: 75%;
+}
+.menu-container{
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+  background-color: #CDDCE6;
+}
+.categories{
+  flex-direction: row;
+  font-size: xx-large;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  text-decoration: none;
+  list-style: none;
+  margin: 1rem;
+  color: #3A291C;
+}
+.categories:hover{
+  color: #9B371E;
+}
+.carrito-container{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.carrito{
+  width: 3.5rem;
+  margin-top: -0.4rem;
+  margin-left: 1rem;
+}
+.catalog{
+  text-align: center;
+  margin-top: 2rem;
+  font-size: xx-large;
+  font-family: 'Marcellus', serif;
+}
+.contador{
+  width: 2rem;
+  height: 3rem;
+  font-size: xx-large;
+  font-family: 'Cinzel', serif;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.contador:hover{
+  border: solid 3px black;
+  background-color: #CDDCE6
+}
+.contadorTitle{
+  font-size: xx-large;
+  font-family: 'Cinzel', serif;
+  margin-bottom: 2rem;
+}
+.lista-productos{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'cinzel', serif;
+  font-size: xx-large;
+  color: #3A291C;
+  font-weight:600;
+}
+.imagen-producto{
+  width: 25rem;
+  height: auto;
+}
+.nombre-producto{
+  font-family: 'cinzel', serif;
+  font-size: xx-large;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #3A291C;
+  font-weight:600;
+}
+.nombre-producto:hover{
+  color: #9B371E;
+}
+.info-producto{
+  font-family: 'Marcellus', serif;
+  font-size: x-large;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.info-precio{
+  margin: auto;
+  font-family: 'Marcellus', serif;
+  margin-top: 0.2rem;
+}
+.info-desc{
+  font-family: 'Marcellus', serif;
+  color: black;
+  margin-bottom: 2rem;
+}
+.ver-mas{
+  padding: 1rem;
+  background-color:#3A291C;
+  margin: auto;
+  margin-top: 2rem;
+  border: black solid 2px;
+  border-radius: 2rem;
+}
+.ver-mas:hover{
+  border:#3A291C double 3px;
+  background-color: #9B371E;
+}
+.ver-mas-button{
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+}
+.ver-mas-button:hover{
+  color: gold;
+}
+.container-card{
+  display: flex;
+}
+.card-list{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.card{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #CDDCE6;
+  padding: 2rem;
+  margin: 2rem;
+  width: 30rem;
+  border-radius: 5rem;
+  box-shadow: 10px 10px 30px #3A291C;
+}
+.card img{
+  border-radius: 3rem;
+  box-shadow: 10px 10px 30px grey;
+  border: #3A291C 5px solid;
+}
+.box-container-detail{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.container-detail{
+  background-color: #CDDCE6;
+  margin: 3rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  max-width: 55rem;
+  box-shadow: 10px 10px 30px #3A291C;
+}
+.container-detail img{
+  width: 100%;
+  text-align: center;
+  border-radius: 2rem;
+  border: black solid 5px;
+}
+.container-detail-nombre{
+  font-family: 'cinzel', serif;
+  font-size: xx-large;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #3A291C;
+  font-weight:600;
+  text-align: center;
+  padding: 1rem;
+}
+.container-detail-info{
+  font-family: 'Marcellus', serif;
+  font-size: xx-large;
+  color: black;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.container-detail-contador{
+  text-align: center;
+  font-family: 'cinzel', serif;
+}
+.container-selector{
+  text-align: center;
+}
